@@ -19,7 +19,7 @@ const ContatoSite = () => {
     <div className={styles.divPagina}>
     <Container fluid> 
         <Row className="py-5 justify-content-center">
-            <Col xs={12} md={6} lg={4}>
+            <Col xs={12} md={6} lg={5}>
               
                   <h2 className="text-start">
                     Seja bem vindo, cadastre seus dados de contato.
@@ -37,7 +37,7 @@ const ContatoSite = () => {
                       27 99999-9999</a>
                   </p>
             </Col>    
-            <Col xs={12} md={6} lg={4}>
+            <Col xs={12} md={6} lg={5}>
               <Contato page="contatolink"/> 
             </Col>    
          
